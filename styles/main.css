@@ -59,3 +59,44 @@ aside{
   padding: 10px 16px;
   border: 0;
 }
+.add-comment{
+  border-bottom: 1px solid gray;
+  width: 90%;
+  height: 26px;
+  float: left;
+}
+.cmt-head{
+  height: 40px;
+  margin: 24px 0;
+}
+
+.round-image{
+  border-radius: 50%;
+}
+
+.cmt-img{
+  margin-right: 2%;
+  float: left;
+}
+
+.comment-body{
+  height: 98px;
+  margin-bottom: 16px;
+}
+.user{
+  float: left;
+  padding-right: 5px;
+}
+
+.icons{
+  float: left;
+}
+.usr-img{
+  width: 56px;
+  height: 98px;
+  float: left;
+}
+.cmt-icons i{
+  padding-right: 15px;
+  color: gray;
+}
