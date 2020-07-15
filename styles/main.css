@@ -1,4 +1,6 @@
-
+*{
+  font-family: 'Roboto', sans-serif;
+}
 nav{
   height: 56px;
   width: 100%;
@@ -41,13 +43,11 @@ nav{
 
 .search-button{
   width: 5%;
-  height: 35px;
   outline: none;
 }
 
 #searchbar{
   width: 45%;
-  height: 35px;
   outline: none;
 }
 
@@ -87,19 +87,23 @@ aside{
 }
 .description{
   /* background-color: green; */
-  height: 167px;
+  height: 180px;
   clear: both;
   border-top: 1px solid gray;
   border-bottom: 1px solid gray;
-  
+  padding-bottom: 10px;
 }
 .desc-top{
   height: 48px;
   margin-top: 16px;
 }
+.description-box{
+  margin-bottom: 15px;
+}
 .user-img{
   float: left;
   padding: 0 15px 0 0;
+  height: 169px;
 }
 .channel{
   float: left;
@@ -154,4 +158,33 @@ aside{
 .cmt-icons i{
   padding-right: 15px;
   color: gray;
+}
+ aside{
+   width: 20%;
+   float: left;
+   margin-top: 20px;
+ }
+ .rel-head{
+   height: 139px;
+   padding-bottom: 10px;
+   border-bottom: 1px solid gray;
+   margin-bottom: 15px;
+ }
+.related-top{
+  height: 20px;
+  display: block;
+}
+.vid{
+  padding-bottom: 15px;
+  height: 94px;
+}
+.thumbnail{
+  width: 168px;
+  height: 94px;
+  background-color: gray;
+  float: left;
+  margin-right: 15px;
+}
+.autoplay{
+  float: right;
 }
