@@ -73,9 +73,17 @@ aside{
 
 .vid-info{
   float: left;
+  margin-right: 5px;
 }
 .icons{
   float: right;
+}
+.icons span{
+  padding: 0 5px;
+}
+
+.icons span i{
+  margin-right: 5px;
 }
 .description{
   /* background-color: green; */
