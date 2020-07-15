@@ -1,0 +1,61 @@
+
+nav{
+  height: 56px;
+  width: 100%;
+  background-color: aqua;
+}
+.content{
+  height: 100vh;
+  width: 65%;
+  /* background-color: blue; */
+  float: left;
+}
+aside{
+  height: 100vh;
+  width: 35%;
+  /* background-color: yellow; */
+  float: right;
+
+}
+.inner-content{
+  width: 1024px;
+  padding-top: 24px;
+  padding-right: 24px;
+  float: right;
+}
+
+.vid-info{
+  float: left;
+}
+.icons{
+  float: right;
+}
+.description{
+  /* background-color: green; */
+  height: 167px;
+  clear: both;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  
+}
+.desc-top{
+  height: 48px;
+  margin-top: 16px;
+}
+.user-img{
+  float: left;
+  padding: 0 15px 0 0;
+}
+.channel{
+  float: left;
+}
+.channel p{
+  margin: 0;
+}
+.description button{
+  float: right;
+  color: white;
+  background-color: red;
+  padding: 10px 16px;
+  border: 0;
+}
